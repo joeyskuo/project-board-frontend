@@ -4,9 +4,11 @@ class Header extends Component {
 
     render() {
         return(
-            <div>
-                <h1>Nav</h1>
-            </div>
+            <nav>
+                <div className="container">
+                    <a href="/">Personal Management Tool</a>
+                </div>
+            </nav>
         )
     }
 }
