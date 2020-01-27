@@ -8,6 +8,17 @@ class Header extends Component {
                 <div className="container">
                     <a className={"navbar-brand"} href="/">Personal Management Tool</a>
                 </div>
+
+                <div>
+                    <ul className="navbar-nav">
+                        <li className="nav-item"><a className={"nav-link"} href="">Dashboard</a></li>
+                    </ul>
+
+                    <ul className="navbar-nav">
+                        <li className="nav-item"><a className={"nav-link"} href="">Sign Up</a></li>
+                        <li className="nav-item"><a className={"nav-link"} href="">Login</a></li>
+                    </ul>
+                </div>
             </nav>
         )
     }
